@@ -1,0 +1,218 @@
+/*brown #775253*/
+
+/*yellow #F1D302*/
+
+/*white #F8F4E3*/
+
+/*grey #706C61*/
+
+/*black #2A2B2A*/
+
+/*center-box*/
+
+body{
+	font-family:'Kaushan Script',cursive;
+}
+
+.box{
+	height: 100vh;
+	display: flex;
+	align-items: center;
+}
+.navbar{
+	background-color: #2A2B2A;
+	padding: 10px;
+
+}
+.nav-link{
+	font-size: 2em;
+	font-style: italic;
+	color: #F1D302!important;
+	padding: 20px;
+	margin: 10px;
+
+}
+
+.nav-link:hover{
+	color:whitesmoke!important;
+}
+
+#banner{
+	height: 100vh;
+	padding: 0 2.5em;
+	background: url(images/team1.jpg) fixed; 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-style: italic;
+
+}
+
+#banner h1{
+	font-size: 2.7em;
+	margin-bottom: 0.5em;
+	color: red;
+}
+
+#banner .card{
+	border-radius: 0;
+	background-color: transparent;
+	border: 0.3em solid whitesmoke;
+	padding: 10px;
+}
+
+.heading{
+	padding-bottom: 2em;
+
+}
+
+.form-control{
+	border-radius: 0;
+	background-color: whitesmoke;
+}
+
+#banner .btn{
+	border-radius:3em;
+	padding:0.5em 2.5em;
+	background-color: #F1D302;
+	color: #2A2B2A!important;
+
+}
+
+#banner .btn:hover{
+	color: #F1D302!important;
+	background-color: #2A2B2A;
+}
+
+.title-underline{
+	width: 10em;
+	border:0.25em solid #F1D302;
+	margin: 0 auto 3em auto;
+
+}
+
+#skills .margin{
+	margin-bottom: 2em;
+
+}
+
+#skills{
+	padding-bottom: 2em;
+	background-color: #706C61;
+}
+
+#skills .fa{
+	font-size: 6em;
+	color: #F1D302;
+}
+
+#prices{
+	padding: 8em 2em;
+	background: url(images/prices.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.card{
+	background-color: whitesmoke;
+	padding: 10px;
+	
+}
+
+#prices .title-underline{
+	border-color: #2A2B2A;
+
+}
+
+#prices .title h1{
+	color: #F1D302;
+
+
+}
+
+#prices .card{
+	margin-bottom: 2em;
+	padding: 2em 1em;
+
+}
+
+#prices .money{
+	font-size: 2em;
+}
+
+#prices .card a{
+	background-color: #F1D302;
+	padding: 0.5em 1em;
+	color: #775253;
+
+}
+
+#prices .card a:hover{
+	background-color: #775253;
+	color: #F1D302;
+
+}
+
+#prices hr {
+	background-color: #775253;
+	color: #F1D302;
+}
+
+#team{
+	padding: 2em;
+	background-color: #2A2B2A;
+	color:#F8F4E3;
+}
+
+#team .card{
+	color: #2A2B2A;
+	margin-bottom: 2em;
+
+}
+
+#team a{
+	background-color: #F1D302;
+	color: whitesmoke;
+	font-size: 1.5em;
+
+}
+
+#team a:hover{
+	background-color: #775253;
+}
+
+.card-img-top{
+	width:370px;
+}
+
+#footer{
+	padding: 4em 2em;
+
+}
+
+.footer-icons{
+	font-size: 3em;
+
+}
+
+#footer .footer-icons a {
+	color: #775253;
+	text-decoration: none;
+
+}
+
+#footer .footer-icons a:hover{
+	color: #F1D302;
+}
+
+
+
+@media screen and (max-width: 576px){
+	.box{
+		height: 100vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+
+	}
+}
